@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Open Sans";
+  color: #333;
+  background-color: #FFF;
+}
+
+/*Header and nav bar styling*/
+.navbar-nav {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #777;
+}
+
+.navbar-nav #explore a {
+  color: #399BD1;
+}
+
+.navbar-nav li a:hover {
+  color: #333;
+}
+
+.navbar-nav #explore a:hover {
+  color: #399BD1;
+}
