@@ -9,8 +9,12 @@ body {
   background-color: #FFF;
 }
 
+/* Slick Overrides */
+.slick-slide {
+  outline: none;
+}
 
-/*GENERAL STYLING*/
+/*Universal Styling*/
 /*Headings*/
 .row h2 {
   font-size: 1.7rem;
@@ -75,13 +79,17 @@ body {
 
 /*Jumbotron styling*/
 .jumbotron {
-  padding: 11.85rem 0 11.85rem 0;
+  height: 44rem;
+  padding-top: 11.85rem;
   color: #FFFFFF;
   text-shadow: -1px -1px 0 #000,
                1px -1px 0 #000,
                -1px 1px 0 #000,
                1px 1px 0 #000;
   text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .jumbotron h1 {
   font-family: "Monoton";
@@ -95,14 +103,19 @@ body {
 .jumbotron .btn-primary {
   text-shadow: none;
 }
-/*Jumbotron bike*/
+/*Jumbotron backgrounds*/
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
-
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
 
 /*Featured projects*/
 .featured-project .row #products {
@@ -157,5 +170,11 @@ body {
   .help {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .jumbotron h1 {
+    font-size: 4rem;
   }
 }
