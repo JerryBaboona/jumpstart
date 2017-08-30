@@ -116,6 +116,12 @@ body {
 .jumbotron-flowers {
   background-image: url("../images/jumbotron-flowers.jpg");
 }
+.relative-wrapper {
+    position: relative;
+    top: -16rem;
+    width: 100%;
+    text-align: center;
+}
 
 /*Featured projects*/
 .featured-project .row #products {
