@@ -32,6 +32,24 @@ body {
 .image-container img:hover {
   opacity: 1.0;
 }
+/*Buttons*/
+.btn-primary {
+  margin: auto;
+  margin-top: 2.8rem;
+  padding: 1.3rem 0 1.3rem 0;
+  width: 11.4rem;
+  background-color: #399BD1;
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.2s ease-in 0.0s;
+}
+.btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+  background-color: #399BD1;
+}
+.btn-primary:active {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
 
 
 /*Header and nav bar styling*/
@@ -71,21 +89,7 @@ body {
   margin: auto;
 }
 .jumbotron .btn-primary {
-  margin: auto;
-  margin-top: 2.8rem;
-  padding: 1.3rem 0 1.3rem 0;
-  width: 11.4rem;
-  background-color: #399BD1;
-  border: none;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   text-shadow: none;
-  transition: box-shadow 0.2s ease-in 0.0s;
-}
-.jumbotron .btn-primary:hover {
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
-}
-.jumbotron .btn-primary:active {
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
 /*Jumbotron bike*/
 .jumbotron-bike {
@@ -106,3 +110,28 @@ body {
 
 
 /*Projects*/
+.projects {
+  padding-bottom: 5.85rem;
+}
+
+
+/*Help*/
+.help {
+  background-color: #F3F3F3;
+  padding: 5.2rem 0 5.2rem 0;
+  text-align: center;
+  width: 100%;
+}
+.help h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.help p {
+  width: 42rem;
+  margin: auto;
+  margin-top: 1.4rem;
+}
+
+.help .btn-primary {
+  margin-top: 2.8rem;
+}
