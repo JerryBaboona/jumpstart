@@ -9,21 +9,64 @@ body {
   background-color: #FFF;
 }
 
+
 /*Header and nav bar styling*/
 .navbar-nav {
   font-weight: 700;
   font-size: 1.1rem;
   color: #777;
 }
-
 .navbar-nav #explore a {
   color: #399BD1;
 }
-
 .navbar-nav li a:hover {
   color: #333;
 }
-
 .navbar-nav #explore a:hover {
   color: #399BD1;
+}
+
+
+/*Jumbotron styling*/
+.jumbotron {
+  padding: 11.85rem 0 11.85rem 0;
+  color: #FFFFFF;
+  text-shadow: -1px -1px 0 #000,
+               1px -1px 0 #000,
+               -1px 1px 0 #000,
+               1px 1px 0 #000;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-family: "Monoton";
+  font-size: 7.1rem;
+  text-transform: uppercase;
+}
+.jumbotron p {
+  width: 51.3rem;
+  margin: auto;
+}
+.jumbotron .btn-primary {
+  margin: auto;
+  margin-top: 2.8rem;
+  padding: 1.3rem 0 1.3rem 0;
+  width: 11.4rem;
+  background-color: #399BD1;
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  text-shadow: none;
+  transition: box-shadow 0.2s ease-in 0.0s;
+}
+.jumbotron .btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+.jumbotron .btn-primary:active {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+/*Jumbotron bike*/
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
